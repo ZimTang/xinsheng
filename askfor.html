@@ -1,14 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <div class="container">
-    <div class="info"></div>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./askfor.css" />
+    <link rel="stylesheet" href="./common.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <div class="logo">
+        <img src="./images/工程学院LOGO-透明.png" alt="" />
+      </div>
+    </div>
+    <div class="container">
+      <div class="fly1"><img src="./images/fly.png" alt="" /></div>
+      <div class="fly2"><img src="./images/fly.png" alt="" /></div>
+      <div class="fly3"><img src="./images/fly.png" alt="" /></div>
+      <div class="fly4"><img src="./images/fly.png" alt="" /></div>
+      <div class="fly5"><img src="./images/fly.png" alt="" /></div>
+      <div class="info">
+        <h1 class="title">个人信息</h1>
+        <form action="">
+          <div class="form-item">
+            <label for="name"><span class="red">*</span>姓名：</label>
+            <div><input type="text" />（请填入报考人姓名）</div>
+          </div>
+          <div class="form-item">
+            <label for="sex"><span class="red">*</span>性别：</label>
+            <div class="radio-group">
+              <div><input type="radio" value="1" />男</div>
+              <div><input type="radio" value="2" />女</div>
+            </div>
+          </div>
+          <div class="form-item">
+            <label for=""><span class="red">*</span>身份证号码：</label>
+            <div><input type="text" />（请输入18位身份证号码）</div>
+          </div>
+          <div class="form-item">
+            <label for="group"><span class="red">*</span>考生科类：</label>
+            <div>
+              <select name="" id="" class="category">
+                <option value="">历史</option>
+              </select>
+              <span>（请选择科类）</span>
+            </div>
+          </div>
+          <div class="form-item">
+            <label for="location"><span class="red">*</span>考生籍贯：</label>
+            <div><input type="text" />（请输入考籍所在地）</div>
+          </div>
+          <div class="form-item">
+            <label for="phone1"
+              ><span class="red">*</span>考生联系电话1：</label
+            >
+            <input type="text" />
+          </div>
+          <div class="form-item">
+            <label for="phone2">考生联系电话2：</label>
+            <input type="text" />
+          </div>
+          <div class="form-item">
+            <label for=""><span class="red">*</span>通信地址：</label>
+            <input type="text" />
+          </div>
+          <div class="form-item">
+            <label for="">特殊群体类型</label>
+            <div class="special">
+              <div>
+                <input
+                  type="checkbox"
+                  style="zoom: 125%; margin-right: 3px"
+                />孤儿
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  style="zoom: 125%; margin-right: 3px"
+                />烈士子女
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  style="zoom: 125%; margin-right: 3px"
+                />城乡低保
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  style="zoom: 125%; margin-right: 3px"
+                />单亲子女
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  style="zoom: 125%; margin-right: 3px"
+                />农村五保户
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  style="zoom: 125%; margin-right: 3px"
+                />家庭突发重大事故
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  style="zoom: 125%; margin-right: 3px"
+                />优扶家庭子女
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  style="zoom: 125%; margin-right: 3px"
+                />父母一方或双方重病
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  style="zoom: 125%; margin-right: 3px"
+                />建档立卡贫困家庭学生
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  style="zoom: 125%; margin-right: 3px"
+                />城市三无人员
+              </div>
+            </div>
+          </div>
+          <div class="form-item">
+            <label for="">考试成绩估分：</label>
+            <input type="text" />
+          </div>
+          <div class="form-item">
+            <label for="">填报专业1：</label>
+            <input type="text" />
+          </div>
+          <div class="form-item">
+            <label for="">填报专业2：</label>
+            <input type="text" />
+          </div>
+          <div class="btns">
+            <button>提交</button>
+            <button>重置</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footer">
+      <p>
+        Copyright 重庆工程学院 版权所有
+        <a href="http://www.beian.miit.gov.cn">&nbsp;渝ICP备09014106&nbsp;</a>
+        招生咨询热线：023-62846626 023-62846636 校长信箱:<a
+          href="mailto:cgxzxx@cqie.edu.cn"
+          style="color: red; text-decoration: underline"
+          >cgxzxx@cqie.edu.cn</a
+        >
+      </p>
+      <div class="copyright_nr">
+        <a
+          target="_blank"
+          href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011302000724"
+        >
+          <img
+            src="http://www.cqie.edu.cn/templates/201804/20180402173549679.png"
+            class="wangbei"
+          />&nbsp;渝公网安备 50011302000724号&nbsp;&nbsp;&nbsp;</a
+        ><span>(建议使用IE9以上浏览器)</span>&nbsp;&nbsp;&nbsp;
+        <a
+          href="https://www.51.la/?comId=19548047"
+          title="51.La 网站流量统计系统"
+          target="_blank"
+          >网站统计</a
+        >
+        <a href="//www.51.la/?comId=19548047" target="_blank"
+          >总访问量&nbsp;3,953,720</a
+        >
+      </div>
+    </div>
+  </body>
 </html>
