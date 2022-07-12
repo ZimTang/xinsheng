@@ -50,7 +50,7 @@
 
 .container {
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
   width: 100%;
   background-color: #5497c1;
 }
@@ -122,6 +122,23 @@ input {
   background: url(./images/btnR.png);
   background-size: 120px 50px;
   background-repeat: no-repeat;
+}
+.btn-right {
+  width: 218px;
+  height: 66px;
+  margin-left: 300px;
+  text-align: center;
+  line-height: 66px;
+  font-size: 30px;
+  letter-spacing: 4px;
+  color: white;
+  text-shadow: 2px 2px #232323;
+  background: url(./images/btnR.png);
+}
+
+.goIndex {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .btns > button {
