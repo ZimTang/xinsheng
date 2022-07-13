@@ -3,46 +3,48 @@
   padding: 0;
 }
 
+
+
 .red {
   color: red;
 }
 
-.fly1 img{
+.fly1 img {
   width: 5%;
   position: absolute;
   left: 10%;
   top: 30%;
 }
 
-.fly2 img{
+.fly2 img {
   width: 9%;
   position: absolute;
   left: 10%;
   top: 40%;
 }
 
-.fly3 img{
+.fly3 img {
   width: 6%;
   position: absolute;
   right: 10%;
   top: 50%;
 }
 
-.fly4 img{
+.fly4 img {
   width: 3%;
   position: absolute;
   right: 20%;
   bottom: 30%;
 }
 
-.fly5 img{
+.fly5 img {
   width: 6%;
   position: absolute;
   right: 20%;
   bottom: 20%;
 }
 
-.category{
+.category {
   font-size: 18px;
   height: 35px;
   width: 228px;
@@ -57,7 +59,7 @@
 
 .info {
   background-image: url(./images/bk.png);
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-position-x: center;
   height: 1400px;
   padding-top: 100px;
@@ -95,7 +97,6 @@ input {
   flex-wrap: wrap;
   padding-left: 120px;
 }
-
 
 .form-item label {
   width: 200px;
@@ -152,23 +153,20 @@ input {
   box-shadow: 2px 2px 2px 1px #eee;
 }
 
-
-
 .radio-group {
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
-.radio-group>div {
+.radio-group > div {
   margin-right: 15px;
 }
 
-input[type="radio"]{
+input[type="radio"] {
   zoom: 150%;
   margin-right: 4px;
 }
-
 
 .back {
   color: #5091c0;
