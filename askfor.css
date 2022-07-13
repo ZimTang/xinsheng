@@ -174,3 +174,14 @@ input[type="radio"] {
   margin-left: 20px;
   font-size: 14px;
 }
+
+.desc{
+  list-style: none;
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.desc li {
+  margin-bottom: 5px;
+}
